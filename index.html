@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback_Form</title>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="Feedback_container">
+        <h1>FeedBack Form</h1>
+        <form name="Feedback_Form" id="FeedbackForm">
+            <p class="feed_para"></p>
+            <div id="Total_Feed">
+            <div id="Input_Contain">
+                <input type="text" name="ename" id="Feedback_inp" placeholder="Enter your name">
+            </div>
+            <div id="Radio_Contain">
+                <input type="radio" name="Feed_Radio" class="Feedback_Rad" id="radio">
+                <label for="radio">General Feedback</label>
+
+                <input type="radio" name="Feed_Radio" class="Feedback_Rad" id="radio1">
+                <label for="radio1">Technical Issue</label>
+
+                <input type="radio" name="Feed_Radio" class="Feedback_Rad" id="radio2">
+                <label for="radio2">Data Lose Issue</label>
+            </div>
+            <div id="Email_Contain">
+                <input type="email" name="Feed_email" id="Feedback_Eml" placeholder="you@gmail.com">
+            </div>
+            <div id="TxtAr_Contain">
+                <textarea name="Feed_Content" id="Feedback_Content" rows="9" cols="69"
+                    placeholder="Enter your feedback breifly"></textarea>
+            </div>
+            <div id="Check_Contain">
+                <input type="checkbox" id="chec_b" name="Feed_check" >
+                <label for="chec_b">I accept the terms and conditions</label> 
+            </div>
+            <div id="Btn_Contain">
+                <button type="submit" name="submit">Submit</button>
+            </div>
+            </div>
+        </form>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
